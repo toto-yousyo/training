@@ -1,7 +1,7 @@
 const MyTop = () => {
   return (
     <div>
-      <h1>TOP</h1>
+      <h1 className="text-xl">TOP</h1>
     </div>
   );
 };
