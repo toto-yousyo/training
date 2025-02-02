@@ -1,10 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import StateForm from "./StateForm";
+import { RecoilTodoUp } from "@/4/StateTodo";
 import "./index.css";
+import { RecoilRoot } from "recoil";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <StateForm />
+    <RecoilRoot>
+      <RecoilTodoUp />
+    </RecoilRoot>
   </StrictMode>,
 );
